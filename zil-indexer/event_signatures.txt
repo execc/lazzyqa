@@ -1,0 +1,20 @@
+{
+    _eventname: "MintSuccess"; 
+    by: _sender; 
+    recipient: to;
+    token_id: token_id; 
+    token_uri: token_uri
+};
+
+{
+    _eventname: "TransferSuccess"; 
+    from: _sender; 
+    recipient: to; 
+    token: token_id
+};
+
+{   _eventname: "BurnSuccess"; 
+    initiator: _sender; 
+    burn_address: token_owner; 
+    token: token_id
+};

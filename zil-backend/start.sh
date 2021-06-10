@@ -1,0 +1,1 @@
+docker run --name=zil-backend --restart=always -p 3001:3001 -d rg.fr-par.scw.cloud/easychain/zil-nft/zil-backend

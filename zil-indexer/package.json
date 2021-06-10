@@ -1,0 +1,20 @@
+{
+  "name": "zil-nft-hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jsier/retrier": "^1.2.4",
+    "@zilliqa-js/zilliqa": "^3.0.0",
+    "bn.js": "^5.2.0",
+    "kafkajs": "^1.15.0",
+    "mongodb": "^3.6.9",
+    "node-fetch-retry": "^1.1.1",
+    "tslib": "^2.2.0"
+  }
+}

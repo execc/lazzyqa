@@ -1,0 +1,1 @@
+docker run --name=zil-indexer --restart=always -e "KAFKA_URL=51.15.211.88:9093" -e "ZILLIQA_URL=https://api.zilliqa.com" -e "START_BLOCK=1000000" -v "/root/current_block.json:/usr/src/app/current_block.json" -d rg.fr-par.scw.cloud/easychain/zil-nft/zil-indexer
